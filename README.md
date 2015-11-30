@@ -18,7 +18,7 @@ java -noverify Main
  2. JDKへのパスを通したうえで、compile.sh または compile.bat を実行します。
  3. eclipse などのIDEで新規プロジェクトを作成し、そこに Main.java, Masakari.java を入れます  
  （コンパイルエラーになりますが、気にしないでください）  
-![eclipseのワークスペース](https://raw.github.com/wiki/YujiSoftware/Masakari4j/images/eclipse.png)
+![eclipseのワークスペース](images/eclipse.png)
 
 ##実行
  1. 以下のシェル または コマンドプロンプトで、コンパイルしたプログラムを実行します。
@@ -33,7 +33,7 @@ java -noverify -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:8888,server=
  2. リモート Java アプリケーションをクリックし、"新規" ボタンをクリックします。
  3. 以下の設定を行い "Debug" ボタンをクリックします。    
  （そのままだとすぐに終了するので、適当なところでブレークポイントを設定するなどしてください）
- ![デバッグの構成](https://raw.github.com/wiki/YujiSoftware/Masakari4j/images/DebugConfiguration.png)
+ ![デバッグの構成](images/DebugConfiguration.png)
 
 |プロジェクト|ホスト|ポート|
 |---|---|---|
