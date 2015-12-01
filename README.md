@@ -13,8 +13,11 @@ java -noverify Main
 
 #デバッグ方法
 
+eclipseなどのIDE上でデバッグしようとしても、コンパイルエラーになってしまいます。
+そのため、コンソールからJavaを起動して、それにアタッチする必要があります。
+
 ##準備
- 1. [Download Zip](https://github.com/YujiSoftware/Masakari4j/archive/master.zip) をクリック、コード一式をダウンロードします。
+ 1. [Download Zip](https://github.com/YujiSoftware/Masakari4j/archive/master.zip) をクリックし、コード一式をダウンロードします。
  2. JDKへのパスを通したうえで、compile.sh または compile.bat を実行します。
  3. eclipse などのIDEで新規プロジェクトを作成し、そこに Main.java, Masakari.java を入れます  
  （コンパイルエラーになりますが、気にしないでください）  
