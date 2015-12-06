@@ -24,7 +24,7 @@ eclipseなどのIDE上でデバッグしようとしても、コンパイルエ�
 ![eclipseのワークスペース](https://raw.github.com/wiki/YujiSoftware/Masakari4j/images/eclipse.png)
 
 ##実行
- 1. 以下のシェル または コマンドプロンプトで、コンパイルしたプログラムを実行します。
+ 1. 以下のシェル または コマンドプロンプトで、コンパイルしたプログラムを実行します。  
 （実行後、"Listening for transport dt_socket at address: 8888" と表示された状態で停止します。これは、デバッガのアタッチを待っているためです）
 
 ```sh
